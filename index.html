@@ -91,32 +91,24 @@
   <body>
 
 <header>
-  <nav class="navbar navbar-expand-md fixed-top" style="background-color: #B1B2FF;">
+  <h1 class="visually-hidden">Headers examples</h1>
 
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">MTMR</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="services">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact">Contact</a>
-          </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-  </nav>
+  <div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+        <span class="fs-4">MTMR</span>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link">About us</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+
+      </ul>
+    </header>
+  </div>
 </header>
 
 <main>
@@ -179,6 +171,7 @@
   <!-- Wrap the rest of the page in another container to center all the content. -->
 
   <div class="container marketing">
+    <section class="white-section" id="about">
 
     <!-- Three columns of text below the carousel -->
     <div class="row">
@@ -207,8 +200,10 @@
     </div><!-- /.row -->
 
 
+
+  </section>
     <!-- START THE FEATURETTES -->
-  <section class= id="services">
+<section class="white-section" id="services">
     <hr class="featurette-divider">
 
     <div class="row featurette">
@@ -266,10 +261,10 @@ We help families adapt to change with short- and long-term services, the availab
 
   </div><!-- /.container -->
 
-
+  </section>
   <!-- FOOTER -->
 
-  <section class= id="contact">
+    <footer id="contact">
   <div class="b-example-divider"></div>
 
   <div class="container">
