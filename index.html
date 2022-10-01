@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.101.0">
+    <title>MTMR -Homecare Services</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
+
+    <!-- Font Awsome -->
+    <script src="https://kit.fontawesome.com/6c1ac52af3.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+
+    <!--  Bootstrap Links -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+    <!--  Css Stylesheets -->
+
+
+
+
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+
+<header>
+  <nav class="navbar navbar-expand-md fixed-top" style="background-color: #B1B2FF;">
+
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">MTMR</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+       <img src="images/slide1.jpg" class="d-block w-100" alt="...">
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Quality Care.</h1>
+            <p>MTMR Senior Quality Care Inc. is a private senior home care operating in Durham Region.
+</p>
+            <p><a class="btn btn-lg btn-secondary" href="#">Sign up today</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+         <img src="images/slide2.jpg" class="d-block w-100" alt="...">
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Dedicated Staff.</h1>
+            <p>We are committed to providing quality 24 hour care to seniors.</p>
+            <p><a class="btn btn-lg btn-secondary" href="#">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+         <img src="images/slide3.jpg" class="d-block w-100" alt="...">
+
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>One more for good measure.</h1>
+            <p>We cater to retirement and long term care facilities, hospitals and in their homes.</p>
+            <p><a class="btn btn-lg btn-secondary" href="#">Browse gallery</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+          <i class="icon fas fa-circle-check fa-4x"></i>
+
+        <h2 class="fw-normal">Companionship</h2>
+        <p>We strive to provide warm and supportive company for your loved one so they feel cared for and enjoy themselves!</p>
+
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+          <i class="icon fas fa-circle-check fa-4x"></i>
+
+        <h2 class="fw-normal">Personal Care</h2>
+        <p>Our professional, compassionate personal care services provide dignity and independence for your loved one as they progress through any challenges.</p>
+
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+          <i class="icon fas fa-circle-check fa-4x"></i>
+
+
+        <h2 class="fw-normal">Home Support</h2>
+        <p>From meal preparation to cleaning, our full home support services ensure your loved one maintains a healthy diet and has a clean, safe home.</p>
+
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+  <section class= id="services">
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Our Personal Support Workers will assist in   <span class="text-muted">will assist in: </span></h2>
+        <p class="lead">-Meal Preparation<br>
+-Light Housekeeping<br>
+-Grooming <br>
+-Toileting <br>
+-Medication Assistance<br>
+-Laundry Services<br>
+-Overnight Care<br>
+-Other customized services upon request</p>
+      </div>
+      <div class="col-md-5">
+       <img src="images/box1.jpg" class="d-block w-100" alt="...">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+
+
+        <h2 class="featurette-heading fw-normal lh-1">  With Our In-Home Care, <span class="text-muted">Seniors Will:</span></h2>
+        <p class="lead">-Preserve independence & dignity<br>
+        -Enjoy their home & familiar surroundings<br>
+        -Feel safe, secure & cared for<br>
+        -Maintain health & wellbeing</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+      <img src="images/box2.jpg" class="d-block w-100" alt="...">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Support <span class="text-muted">Trust & Flexibility</span></h2>
+        <p class="lead">Our team members are carefully screened, insured, and bondable. We highly value reliability and dependability.
+We help families adapt to change with short- and long-term services, the availability of no-contract terms, and care plans designed to meet your needs.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="images/box3.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+
+  <section class= id="contact">
+  <div class="b-example-divider"></div>
+
+  <div class="container">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Services</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contact</a></li>
+
+      </ul>
+      <p class="text-center text-muted">&copy; 2022 MTMR</p>
+    </footer>
+  </div>
+
+  </body>
+</html>
