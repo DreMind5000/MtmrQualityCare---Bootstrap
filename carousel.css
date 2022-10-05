@@ -1,13 +1,10 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
-
 body {
-  font-family: "Montserrat";
+
   padding-top: 3rem;
   padding-bottom: 3rem;
-
-  text-align: center;
 
 }
 
@@ -15,10 +12,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat" sans-serif;
   font-weight: 900;
 }
+
 p {
   color: #000000;
 }
-
 
 /* Containers */
 .container-fluid {
@@ -26,14 +23,13 @@ p {
 }
 
 /* Sections */
-
 .colored-section {
   background-color: #EEF1FF;
   color: #fff;
 }
 
 .white-section {
-background-color: #fff;
+  background-color: #fff;
 }
 
 /* Navigation Bar */
@@ -53,25 +49,33 @@ background-color: #fff;
   font-family: 'Montserrat-Light, sans-serif';
 }
 
-
-.nav-link {
-  font-size: 1.2rem;
-  font-family: 'Montserrat-Light, sans-serif';
-  color:#AAC4FF;
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: var(--bs-nav-pills-link-active-color);
+  background-color: #b1b2ff;
 }
 
+.nav-link {
+  display: block;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: var(--bs-nav-link-font-size);
+  font-weight: var(--bs-nav-link-font-weight);
+  color: #b1b2ff;
+  text-decoration: none;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
-
 /* Carousel base class */
 .carousel {
   margin-bottom: 4rem;
 }
+
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   bottom: 3rem;
   z-index: 10;
+  font-size: 2.2rem;
 }
 
 /* Declare heights because of positioning of img element */
@@ -79,28 +83,26 @@ background-color: #fff;
   height: 42rem;
 }
 
-
 /* MARKETING CONTENT
 -------------------------------------------------- */
-
 /* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
 }
+
 /* rtl:begin:ignore */
 .marketing .col-lg-4 p {
   margin-right: .75rem;
   margin-left: .75rem;
 }
+
 /* rtl:end:ignore */
-
-
 /* Featurettes
 ------------------------- */
-
 .featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 5rem 0;
+  /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
@@ -110,14 +112,12 @@ background-color: #fff;
 }
 
 /* rtl:end:remove */
-
 /* RESPONSIVE CSS
 -------------------------------------------------- */
-
 /* Testimonal Section */
 #testimonials {
   background-color: #D2DAFF;
-
+    text-align: center;
 }
 
 .textimonal-text {
@@ -133,40 +133,36 @@ background-color: #fff;
 
 /* Contact
 ------------------------- */
-
 #contact {
-text-align: center;
+  text-align: center;
   padding: 7% 15%;
-
 }
-
-
 
 /* Testimonal Section */
 #footer {
   background-color: #D2DAFF;
 
-/* featurette Section */
-@media (min-width: 40em) {
-  /* Bump up size of carousel content */
-  .carousel-caption p {
-    margin-bottom: 1.25rem;
-    font-size: 1.25rem;
-    line-height: 1.4;
-  }
+  /* featurette Section */
+  @media (min-width: 40em) {
 
-  .featurette-heading {
-    font-size: 50px;
-  }
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
 
-  .lead {
-    font-size: 1.25rem;
-    font-weight: 300;
-  }
+    .featurette-heading {
+      font-size: 50px;
+    }
 
+    .lead {
+      font-size: 1.25rem;
+      font-weight: 00;
+    }
 
-@media (min-width: 62em) {
-  .featurette-heading {
-    margin-top: 7rem;
-  }
-}
+    @media (min-width: 62em) {
+      .featurette-heading {
+        margin-top: 7rem;
+      }
+    }
